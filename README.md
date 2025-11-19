@@ -56,6 +56,6 @@ Each project repo contains:
 ---
 
 ## 🌐 Connect With Me
-- 💻 **GitHub:** [github.com/john](https://github.com/suprien)  
+- 💻 **GitHub:** [github.com/john](https://github.com/wozoht07)  
 - 🔗 **LinkedIn:** [linkedin.com/in/john](https://www.linkedin.com/in/john-s-6aaa128a/) 
 - ✉️ **Email:** jsuprien 
