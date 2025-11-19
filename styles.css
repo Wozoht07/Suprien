@@ -1,52 +1,89 @@
 /* General */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f4;
-  color: #333;
-  line-height: 1.6;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
 }
 
-/* Header */
-header {
-  background: #0d6efd;
-  color: #fff;
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #e0e0e0;
+  background: #0d1117;
   padding: 2rem 1rem;
+}
+
+/* Layout */
+header, 
+section {
+  max-width: 900px;           /* Consistent max-width */
+  margin: 4rem auto;          /* Unified spacing */
   text-align: center;
 }
 
-/* Sections */
-section {
-  padding: 2rem 1rem;
-  max-width: 1000px;
-  margin: 0 auto;
+header {
+  background: #0d6efd;
+  color: #fff;
+  padding: 3rem 1rem;
+  border-radius: 12px;
 }
 
-h2 {
-  color: #0d6efd;
-  margin-bottom: 1rem;
+/* Typography */
+h1 { 
+  font-size: 3.5rem; 
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #ffa357, #ff6b6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;                    /* Standard property (modern browsers) */
+}
+
+h2 { 
+  font-size: 2.2rem; 
+  margin-bottom: 1.5rem; 
+  color: #58a6ff; 
+}
+
+/* Links */
+a { 
+  color: #58a6ff; 
+  text-decoration: none; 
+}
+
+a:hover { 
+  text-decoration: underline; 
 }
 
 /* Skills */
 .skills-list {
-  list-style-type: none;
+  list-style: none;
   padding-left: 0;
+}
+
+.skills-list li {
+  font-size: 1.1rem;
+  margin: 0.8rem 0;
 }
 
 /* Projects Grid */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
 .project-card {
-  background: #fff;
-  padding: 1rem;
+  background: #161b22;               /* Dark card - matches GitHub theme */
+  border: 1px solid #30363d;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
   transition: transform 0.2s ease;
+  color: #e0e0e0;
+  text-align: left;
 }
 
 .project-card:hover {
@@ -55,23 +92,21 @@ h2 {
 
 .project-card img {
   width: 100%;
-  border-radius: 5px;
-  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
 }
 
 .project-card a {
-  text-decoration: none;
-  color: #0d6efd;
-  font-weight: bold;
+  color: #58a6ff;
+  font-weight: 600;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
 }
 
 .project-card p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   margin: 0.5rem 0;
-}
-
-
-a {
-  color: #0d6efd;
-  text-decoration: none;
+  opacity: 0.9;
 }
