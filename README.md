@@ -1,6 +1,6 @@
 👋 Hi, I'm John
 
-🎓 **Computer Science Student | Graduating Dec 2026**  
+🎓 **Computer Science Student | Graduating Early 2027**  
 💡 Focused on **AI / ML Engineering · Cloud Solutions · Full-Stack Development · Data Engineering**
 
 ---
